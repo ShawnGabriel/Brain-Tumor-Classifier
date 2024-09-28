@@ -20,7 +20,7 @@ This project aimed to create a brain tumor classification system using deep lear
 
 ### Key Results
 - **Model Accuracy:** The classifier achieved an accuracy of 81.29% on the test dataset.
-- **Optimizer & Learning Rate:** The model was trained using the Adam optimizer with an initial learning rate of 0.001, which was dynamically reduced to 0.0005 using the ReduceLROnPlateau callback.
+- **Optimizer & Learning Rate:** The model was trained using the Adam optimizer with an initial learning rate of 0.001, which was dynamically reduced to 0.0005 using the **ReduceLROnPlateau** callback.
 - **Callbacks:** In addition to ReduceLROnPlateau, the training process utilized **EarlyStopping** to prevent overfitting by halting training when validation loss stopped improving, and **ModelCheckpoint** to save the best model weights during training.
 - **Data Augmentation:** Applied various data augmentation techniques (e.g., rotation, zooming, flipping) to enhance generalization and reduce overfitting.
 - **Freezing and Unfreezing Layers:** Experimented with freezing and unfreezing layers of the neural network, but observed no significant performance improvements.
