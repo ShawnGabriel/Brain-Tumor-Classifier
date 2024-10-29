@@ -1,6 +1,6 @@
 # Project Background
 ### Overview
-Brain tumors are life-threatening and require early, accurate diagnosis to improve patient outcomes. Manual analysis of MRI scans can be time-consuming and prone to human error. To address this, we developed a deep learning-based classifier using Convolutional Neural Networks (CNNs) to automatically detect brain tumors from MRI images. Our goal is to provide a fast and reliable tool that assists healthcare professionals in diagnosis through a web-based application built with Flask.
+Brain tumors are life-threatening and require early, accurate diagnosis to improve patient outcomes. Manual analysis of MRI scans can be time-consuming and prone to human error. To address this, we developed a deep learning-based classifier using Convolutional Neural Networks (CNNs) to automatically detect brain tumors from MRI images. Our goal is to provide a fast and reliable tool that assists healthcare professionals in diagnosis through a web-based application built through Flask.
 
 ### Objectives
 - Build a CNN model to classify brain tumors as benign or malignant.
